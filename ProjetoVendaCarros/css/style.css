@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0ebf8;
+}
+
+.container {}
+
+.header {
+    background-color: rgb(121, 78, 199);
+    height: 150px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.tituloformulario {
+    color: rgb(121, 78, 199);
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+#tituloform {
+    border-bottom: 2px solid rgb(121, 78, 199);
+    width: 120px;
+    margin: 0 auto;
+}
+
+.cadastro {
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.formcadastro {
+    padding: 30px;
+}
+
+.formcadastro p {
+    margin-top: 15px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+form {
+    padding: 0px 30px;
+}
+
+.boxinput {
+    margin-bottom: 15px;
+}
+
+.required-field{
+    color: red;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+}
+
+.optional-list{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input p, input{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: rgb(121, 78, 199);
+    width: 150px;
+    height: 45px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: #fff;
+}
+.btn-submit:hover{
+    background-color: #fff;
+    border-color: #673ab7 ;
+    color: #673ab7
+}

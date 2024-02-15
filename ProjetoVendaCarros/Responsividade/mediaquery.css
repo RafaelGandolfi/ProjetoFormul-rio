@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px){
+    input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 200px;
+}
+}
